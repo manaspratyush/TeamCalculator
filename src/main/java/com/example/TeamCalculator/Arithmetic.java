@@ -1,5 +1,5 @@
 package com.example.TeamCalculator;
 
-public class Arithmetic {
-
+public interface Arithmetic {
+    public Arithmetic evaluate(double arg1,double arg2);
 }
